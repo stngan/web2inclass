@@ -1,0 +1,20 @@
+[
+  {
+    "ProductId": "p1",
+    "ProductName": "Coca",
+    "Price": 100,
+    "Image": "assets/images/h1.jpg"
+  },
+  {
+    "ProductId": "p2",
+    "ProductName": "Pepsi",
+    "Price": 300,
+    "Image": "assets/images/h2.jpg"
+  },
+  {
+    "ProductId": "p3",
+    "ProductName": "Sting",
+    "Price": 200,
+    "Image": "assets/images/h3.png"
+  }
+]

@@ -1,1 +1,19 @@
-<p>m2-b15-product-httpservice works!</p>
+<h3>Bài 15- Json Array Model – Product– Http Service(*)</h3>
+<table border="1">
+  <tr>
+    <td>Ma San Pham</td>
+    <td>Ten San Pham</td>
+    <td>Gia San Pham</td>
+    <td>Picture</td>
+  </tr>
+  <tbody>
+    <tr *ngFor="let p of products">
+      <td>{{p.ProductId}}</td>
+      <td>{{p.ProductName}}</td>
+      <td>{{p.Price}} </td>
+      <td>
+        <img src="{{p.Image}}" width="150px" height="100px">
+      </td>
+    </tr>
+  </tbody>
+</table>
