@@ -1,0 +1,17 @@
+.row{
+  display: flex;
+}
+.col-id, .col-age {
+  width: 100px;
+}
+.col-name {
+  width: 150px;
+}
+.col-email {
+  width: 200px;
+}
+.col-image {
+  width: 200px;
+  height: 100px;
+  background-size:auto;
+}
