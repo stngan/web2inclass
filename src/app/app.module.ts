@@ -14,6 +14,7 @@ import { M2B15ProductHTTPserviceComponent } from './m2-b15-product-httpservice/m
 import { M2B17JsonobjectcustomerComponent } from './m2-b17-jsonobjectcustomer/m2-b17-jsonobjectcustomer.component';
 import { M2B18JsonarraygroupcustomerComponent } from './m2-b18-jsonarraygroupcustomer/m2-b18-jsonarraygroupcustomer.component';
 import { M3B21LoginscreenComponent } from './m3-b21-loginscreen/m3-b21-loginscreen.component';
+import { M2B16ProductHttpserviceerrorComponent } from './m2-b16-product-httpserviceerror/m2-b16-product-httpserviceerror.component';
 
 
 @NgModule({
@@ -27,6 +28,7 @@ import { M3B21LoginscreenComponent } from './m3-b21-loginscreen/m3-b21-loginscre
     M2B17JsonobjectcustomerComponent,
     M2B18JsonarraygroupcustomerComponent,
     M3B21LoginscreenComponent,
+    M2B16ProductHttpserviceerrorComponent,
   ],
   imports: [
     BrowserModule,
