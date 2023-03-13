@@ -1,4 +1,4 @@
-import { FormsModule } from '@angular/forms';
+import { FormGroup, FormsModule, FormControl, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -35,6 +35,9 @@ import { M2B16ProductHttpserviceerrorComponent } from './m2-b16-product-httpserv
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
+    FormGroup,
+    FormControl,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
