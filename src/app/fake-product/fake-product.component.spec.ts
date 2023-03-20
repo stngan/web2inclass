@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Module2JsonComponent } from './module2-json.component';
+import { FakeProductComponent } from './fake-product.component';
 
-describe('Module2JsonComponent', () => {
-  let component: Module2JsonComponent;
-  let fixture: ComponentFixture<Module2JsonComponent>;
+describe('FakeProductComponent', () => {
+  let component: FakeProductComponent;
+  let fixture: ComponentFixture<FakeProductComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ Module2JsonComponent ]
+      declarations: [ FakeProductComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Module2JsonComponent);
+    fixture = TestBed.createComponent(FakeProductComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
